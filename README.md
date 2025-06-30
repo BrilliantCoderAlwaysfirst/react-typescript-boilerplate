@@ -1,125 +1,127 @@
-# React TypeScript Boilerplate
+# React TypeScript Boilerplate 🚀
 
-A modern, feature-rich boilerplate for building React applications with TypeScript. This project includes a robust setup with the latest tools and best practices for React development.
+Welcome to the **React TypeScript Boilerplate**! This repository provides a modern setup for building applications with React 19 and TypeScript 5.8. It includes essential tools like Vite 6, ESLint, Prettier, and Jest, making it ideal for rapid development.
+
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-brightgreen)](https://github.com/BrilliantCoderAlwaysfirst/react-typescript-boilerplate/releases)
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Folder Structure](#folder-structure)
+- [Scripts](#scripts)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
-- **React 19** - Latest version of React with improved performance and features
-- **TypeScript 5.8** - Type safety and enhanced developer experience
-- **Vite 6** - Lightning-fast build tool and development server
-- **React Router Dom 7** - Modern client-side routing
-- **UI Components** - Integration with @saeedkolivand/react-ui-toolkit
-- **Code Quality Tools**:
-  - ESLint 9 with React and TypeScript plugins
-  - Prettier for consistent code formatting
-  - Husky for Git hooks
-  - Lint-staged for pre-commit linting
-- **Testing** - Jest 30 with JSDOM environment
-- **API Integration** - Axios for HTTP requests
+- **Modern React**: Leverage the latest features of React 19.
+- **TypeScript Support**: Write type-safe code with TypeScript 5.8.
+- **Fast Development**: Utilize Vite 6 for quick builds and hot module replacement.
+- **Code Quality**: Maintain code quality with ESLint and Prettier.
+- **Testing**: Write unit tests with Jest.
+- **Routing**: Easy navigation with React Router.
 
-## Project Structure
+## Technologies Used
 
-```
-├── public/             # Static assets
-├── src/
-│   ├── assets/         # Images, fonts, etc.
-│   ├── components/     # Reusable UI components
-│   ├── config/         # Application configuration
-│   ├── hooks/          # Custom React hooks
-│   ├── layouts/        # Layout components
-│   ├── pages/          # Page components
-│   ├── routes/         # Routing configuration
-│   ├── services/       # API services
-│   ├── styles/         # Global styles
-│   ├── types/          # TypeScript type definitions
-│   ├── utils/          # Utility functions
-│   ├── App.tsx         # Main application component
-│   └── main.tsx        # Application entry point
-├── .env.example        # Example environment variables
-├── .eslintrc.json      # ESLint configuration
-├── tsconfig.json       # TypeScript configuration
-├── vite.config.ts      # Vite configuration
-└── package.json        # Project dependencies and scripts
-```
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A superset of JavaScript that adds static types.
+- **Vite**: A fast build tool that improves development experience.
+- **ESLint**: A tool for identifying and fixing problems in JavaScript code.
+- **Prettier**: An opinionated code formatter.
+- **Jest**: A delightful JavaScript testing framework.
+- **React Router**: A standard library for routing in React applications.
 
 ## Getting Started
 
-### Prerequisites
+To get started with this boilerplate, follow these steps:
 
-- Node.js (latest LTS version recommended)
-- npm or yarn
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/BrilliantCoderAlwaysfirst/react-typescript-boilerplate.git
+   cd react-typescript-boilerplate
+   ```
 
-### Installation
+2. **Install Dependencies**:
+   Run the following command to install all necessary dependencies:
+   ```bash
+   npm install
+   ```
 
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/react-ts-boilerplate.git
-cd react-ts-boilerplate
+3. **Run the Development Server**:
+   Start the development server with:
+   ```bash
+   npm run dev
+   ```
+
+4. **Open Your Browser**:
+   Visit `http://localhost:3000` to see your application in action.
+
+5. **Build for Production**:
+   To create a production build, use:
+   ```bash
+   npm run build
+   ```
+
+## Folder Structure
+
+The folder structure of this boilerplate is organized as follows:
+
+```
+react-typescript-boilerplate/
+├── public/                # Static files
+├── src/                   # Application source code
+│   ├── components/        # Reusable components
+│   ├── pages/             # Application pages
+│   ├── hooks/             # Custom hooks
+│   ├── styles/            # Global styles
+│   ├── utils/             # Utility functions
+│   └── App.tsx            # Main application component
+├── .eslintrc.js           # ESLint configuration
+├── .prettierrc            # Prettier configuration
+├── jest.config.js         # Jest configuration
+├── package.json           # Project metadata and dependencies
+└── tsconfig.json          # TypeScript configuration
 ```
 
-2. Install dependencies
-```bash
-npm install
-# or
-yarn install
-```
+## Scripts
 
-3. Create environment variables
-```bash
-cp .env.example .env
-```
+This boilerplate comes with several scripts to help you manage your project:
 
-### Available Scripts
+- `npm run dev`: Start the development server.
+- `npm run build`: Build the application for production.
+- `npm run lint`: Run ESLint to check for code quality.
+- `npm run format`: Format code using Prettier.
+- `npm run test`: Run tests using Jest.
 
-- **Development server**:
-```bash
-npm run dev
-```
+## Testing
 
-- **Build for production**:
-```bash
-npm run build
-```
+Testing is crucial for maintaining code quality. This boilerplate uses Jest for unit testing. To write tests, create a file with the `.test.tsx` extension in the relevant folder. Run tests with:
 
-- **Preview production build**:
-```bash
-npm run preview
-```
-
-- **Run tests**:
 ```bash
 npm run test
 ```
 
-- **Run tests in watch mode**:
-```bash
-npm run test:watch
-```
-
-- **Lint code**:
-```bash
-npm run lint
-```
-
-- **Fix linting issues**:
-```bash
-npm run lint:fix
-```
-
-- **Format code**:
-```bash
-npm run format
-```
-
-- **Type checking**:
-```bash
-npm run typecheck
-```
-
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+We welcome contributions to improve this boilerplate. If you want to contribute, please follow these steps:
 
-## Author
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Create a pull request.
 
-Saeed Kolivand
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Release Notes
+
+For the latest updates and changes, check the [Releases](https://github.com/BrilliantCoderAlwaysfirst/react-typescript-boilerplate/releases) section.
+
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-brightgreen)](https://github.com/BrilliantCoderAlwaysfirst/react-typescript-boilerplate/releases)
+
+Feel free to explore and customize this boilerplate to fit your needs. Happy coding!
